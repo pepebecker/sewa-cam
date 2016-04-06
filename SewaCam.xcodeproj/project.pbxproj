@@ -1,0 +1,330 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B15AD2221C931CFB0040DA6D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15AD2211C931CFB0040DA6D /* AppDelegate.swift */; };
+		B15AD2271C931CFB0040DA6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B15AD2251C931CFB0040DA6D /* Main.storyboard */; };
+		B15AD2291C931CFB0040DA6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B15AD2281C931CFB0040DA6D /* Assets.xcassets */; };
+		B15AD22C1C931CFB0040DA6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B15AD22A1C931CFB0040DA6D /* LaunchScreen.storyboard */; };
+		B15AD2341C931DD40040DA6D /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B15AD2331C931DD40040DA6D /* AssetsLibrary.framework */; };
+		B15AD2361C931DE10040DA6D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B15AD2351C931DE10040DA6D /* AVFoundation.framework */; };
+		B15AD2381C931DEC0040DA6D /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B15AD2371C931DEC0040DA6D /* CoreMedia.framework */; };
+		B15AD23A1C931DF70040DA6D /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B15AD2391C931DF70040DA6D /* MediaPlayer.framework */; };
+		B15AD23C1C931E2A0040DA6D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B15AD23B1C931E2A0040DA6D /* QuartzCore.framework */; };
+		B15AD23E1C931E9A0040DA6D /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B15AD23D1C931E9A0040DA6D /* MobileCoreServices.framework */; };
+		B1695B921C946245003278B8 /* RecordVideoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1695B911C946245003278B8 /* RecordVideoVC.swift */; };
+		B1695B941C946D79003278B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1695B931C946D79003278B8 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B15AD21E1C931CFB0040DA6D /* SewaCam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SewaCam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B15AD2211C931CFB0040DA6D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B15AD2261C931CFB0040DA6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B15AD2281C931CFB0040DA6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B15AD22B1C931CFB0040DA6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B15AD22D1C931CFB0040DA6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B15AD2331C931DD40040DA6D /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		B15AD2351C931DE10040DA6D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		B15AD2371C931DEC0040DA6D /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		B15AD2391C931DF70040DA6D /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		B15AD23B1C931E2A0040DA6D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		B15AD23D1C931E9A0040DA6D /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		B1695B911C946245003278B8 /* RecordVideoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordVideoVC.swift; sourceTree = "<group>"; };
+		B1695B931C946D79003278B8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B15AD21B1C931CFB0040DA6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1695B941C946D79003278B8 /* Foundation.framework in Frameworks */,
+				B15AD23E1C931E9A0040DA6D /* MobileCoreServices.framework in Frameworks */,
+				B15AD23C1C931E2A0040DA6D /* QuartzCore.framework in Frameworks */,
+				B15AD23A1C931DF70040DA6D /* MediaPlayer.framework in Frameworks */,
+				B15AD2381C931DEC0040DA6D /* CoreMedia.framework in Frameworks */,
+				B15AD2361C931DE10040DA6D /* AVFoundation.framework in Frameworks */,
+				B15AD2341C931DD40040DA6D /* AssetsLibrary.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B15AD2151C931CFB0040DA6D = {
+			isa = PBXGroup;
+			children = (
+				B15AD23F1C931EA10040DA6D /* Frameworks */,
+				B15AD2201C931CFB0040DA6D /* SewaCam */,
+				B15AD21F1C931CFB0040DA6D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B15AD21F1C931CFB0040DA6D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B15AD21E1C931CFB0040DA6D /* SewaCam.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B15AD2201C931CFB0040DA6D /* SewaCam */ = {
+			isa = PBXGroup;
+			children = (
+				B15AD2211C931CFB0040DA6D /* AppDelegate.swift */,
+				B1695B911C946245003278B8 /* RecordVideoVC.swift */,
+				B15AD2251C931CFB0040DA6D /* Main.storyboard */,
+				B15AD2281C931CFB0040DA6D /* Assets.xcassets */,
+				B15AD22A1C931CFB0040DA6D /* LaunchScreen.storyboard */,
+				B15AD22D1C931CFB0040DA6D /* Info.plist */,
+			);
+			path = SewaCam;
+			sourceTree = "<group>";
+		};
+		B15AD23F1C931EA10040DA6D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B1695B931C946D79003278B8 /* Foundation.framework */,
+				B15AD23D1C931E9A0040DA6D /* MobileCoreServices.framework */,
+				B15AD23B1C931E2A0040DA6D /* QuartzCore.framework */,
+				B15AD2391C931DF70040DA6D /* MediaPlayer.framework */,
+				B15AD2371C931DEC0040DA6D /* CoreMedia.framework */,
+				B15AD2351C931DE10040DA6D /* AVFoundation.framework */,
+				B15AD2331C931DD40040DA6D /* AssetsLibrary.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B15AD21D1C931CFB0040DA6D /* SewaCam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B15AD2301C931CFB0040DA6D /* Build configuration list for PBXNativeTarget "SewaCam" */;
+			buildPhases = (
+				B15AD21A1C931CFB0040DA6D /* Sources */,
+				B15AD21B1C931CFB0040DA6D /* Frameworks */,
+				B15AD21C1C931CFB0040DA6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SewaCam;
+			productName = SewaCam;
+			productReference = B15AD21E1C931CFB0040DA6D /* SewaCam.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B15AD2161C931CFB0040DA6D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Pepe Becker";
+				TargetAttributes = {
+					B15AD21D1C931CFB0040DA6D = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = B15AD2191C931CFB0040DA6D /* Build configuration list for PBXProject "SewaCam" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B15AD2151C931CFB0040DA6D;
+			productRefGroup = B15AD21F1C931CFB0040DA6D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B15AD21D1C931CFB0040DA6D /* SewaCam */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B15AD21C1C931CFB0040DA6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B15AD22C1C931CFB0040DA6D /* LaunchScreen.storyboard in Resources */,
+				B15AD2291C931CFB0040DA6D /* Assets.xcassets in Resources */,
+				B15AD2271C931CFB0040DA6D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B15AD21A1C931CFB0040DA6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1695B921C946245003278B8 /* RecordVideoVC.swift in Sources */,
+				B15AD2221C931CFB0040DA6D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B15AD2251C931CFB0040DA6D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B15AD2261C931CFB0040DA6D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B15AD22A1C931CFB0040DA6D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B15AD22B1C931CFB0040DA6D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B15AD22E1C931CFB0040DA6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B15AD22F1C931CFB0040DA6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B15AD2311C931CFB0040DA6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SewaCam/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pepeapps.SewaCam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B15AD2321C931CFB0040DA6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SewaCam/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pepeapps.SewaCam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B15AD2191C931CFB0040DA6D /* Build configuration list for PBXProject "SewaCam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B15AD22E1C931CFB0040DA6D /* Debug */,
+				B15AD22F1C931CFB0040DA6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B15AD2301C931CFB0040DA6D /* Build configuration list for PBXNativeTarget "SewaCam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B15AD2311C931CFB0040DA6D /* Debug */,
+				B15AD2321C931CFB0040DA6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B15AD2161C931CFB0040DA6D /* Project object */;
+}
